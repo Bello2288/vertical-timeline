@@ -6,6 +6,8 @@ body {
     background-color: rgb(0, 0, 8);
 }
 
+
+
 .timeline-box {
     position: relative;
     margin: 15px auto;
@@ -14,6 +16,8 @@ body {
     height: 650px;
 }
 
+
+/* --------------- BOX 1 ------------------------- */
 .title-box {
     position: absolute;
     background-color: #f2ecec;
@@ -21,11 +25,27 @@ body {
     height: 140px;
     margin: 20px auto;
     left: 70px;
+    box-shadow: 0px 0px 5px rgb(61, 58, 58);
+}
+
+.title-box h2 {
+    margin-left: 5%;
+    margin-bottom: 0px;
+    color: #2f2f30;
+    font-size: 18px;
+}
+
+.title-box p {
+    margin: 1% 5% 0 5%;
+    bottom: 20px;
+    font-size: 11px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(61, 58, 58);;
 }
 
 .date-box {
+    margin: 0;
     position: absolute;
-    top: 0px;
     left: 223px;
     width: 65px;
     height: 25px;
@@ -42,12 +62,11 @@ body {
 
 .title-box-button {
     position: absolute;
-    top: 0px;
-    left: 10px;
+    margin-left: 5%;
+    bottom: 10%;
     width: 45px;
     height: 23px;
-    background-color: #5845c2;
-
+    background-color: #4961c4;
 }
 
 .title-box-button p {
@@ -57,7 +76,7 @@ body {
     left: 50px;
 }
 
-
+/* --------------- BOX 2 ------------------------- */
 
 .image-box {
     position: absolute;
@@ -67,8 +86,48 @@ body {
     margin: auto 20px ;
     right: 70px;
     top: 200px;
+    box-shadow: 0px 0px 5px rgb(61, 58, 58);
 }
 
+
+.dogpic {
+    background-image: url(../images/dog.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;}
+
+.image-box h2 {
+    margin-left: 5%;
+    margin-bottom: 0px;
+    color: #2f2f30;
+    font-size: 18px;
+}
+
+.image-box p {
+    margin: 1% 5% 0 5%;
+    bottom: 20px;
+    font-size: 11px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(61, 58, 58);;
+}
+
+.image-box-button {
+    position: absolute;
+    margin-left: 5%;
+    bottom: 7%;
+    width: 45px;
+    height: 23px;
+    background-color: #4961c4;
+}
+
+
+.image-box-button p {
+    font-size: 8px;
+    text-align: center;
+    color: #ffffff;
+    left: 50px;
+}
+
+/* --------------- BOX 3 ------------------------- */
 
 .quote-box {
     position: absolute;
@@ -78,4 +137,45 @@ body {
     margin: 20px auto;
     left: 70px;
     top: 400px;
+    box-shadow: 0px 0px 5px rgb(61, 58, 58);
 }
+
+.quote-box h2 {
+    margin-left: 5%;
+    margin-bottom: 0px;
+    color: #2f2f30;
+    font-size: 18px;
+}
+
+.quote-box p {
+    padding-left: 1px;
+    border-left: #4961c4; 
+    margin-left: 5%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+    margin-top: 8%;
+    
+    /* margin: 1% 5% 0 5%;
+    top: 100px; */
+    font-size: 11px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(61, 58, 58);;
+}
+
+.date-box {
+    position: absolute;
+    top: 0px;
+    left: 223px;
+    width: 65px;
+    height: 25px;
+    background-color: #e45555;
+}
+
+.date-box h3 {
+    margin-top: 6px;
+    color: #ffffff;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
