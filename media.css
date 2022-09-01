@@ -1,4 +1,4 @@
-@media (min-width: 400px;) {
+@media (min-width: 400px) {
   
     html {
         box-sizing: border-box;
@@ -25,7 +25,7 @@
     
     /* ------------------ Triangles ------------------- */
     
-    .triangle-rightA {
+    /* .triangle-rightA {
         bottom: 95px;
         right: 288px;
         position: absolute;
@@ -50,7 +50,7 @@
         border-top: 6px solid transparent;
         border-right: 12px solid #f2ecec;
         border-bottom: 6px solid transparent;
-    }
+    } */
     
       /* ------------- ^ Triangles ^ ---------------------- */
     
@@ -247,7 +247,7 @@
         text-align: center;
     }
     
-    .box1 {
+    .bar1 {
         position: absolute;
         background: #364da7;
         width: 1px;
