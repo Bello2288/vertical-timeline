@@ -6,6 +6,11 @@ body {
     background-color: rgb(0, 0, 8);
 }
 
+.container {
+    display: flex;
+    border: 10px white;
+    height: 100vh;
+}
 
 
 .timeline-box {
@@ -99,14 +104,18 @@ body {
     width: 45px;
     height: 23px;
     background-color: #4961c4;
-}
-
-.title-box-button p {
     font-size: 8px;
     text-align: center;
     color: #ffffff;
-    left: 50px;
+    transition: font-size 1s 1s;
 }
+
+.title-box-button:hover {
+    background-color: #8295e1;
+    font-size: 12px;
+    color: #ceea17;
+}
+
 
 /* --------------- BOX 2 ------------------------- */
 
@@ -173,15 +182,19 @@ body {
     width: 45px;
     height: 23px;
     background-color: #4961c4;
-}
-
-
-.image-box-button p {
     font-size: 8px;
     text-align: center;
     color: #ffffff;
-    left: 50px;
+    transition: font-size 1s 1s;
 }
+
+.image-box-button:hover {
+    background-color: #8295e1;
+    background-color: #8295e1;
+    font-size: 12px;
+    color: #ceea17;
+}
+
 
 /* --------------- BOX 3 ------------------------- */
 
@@ -231,4 +244,47 @@ body {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
+
+.box1 {
+    position: absolute;
+    background: #364da7;
+    width: 1px;
+    border: 0px solid green;
+    padding: 3px;
+    margin: 0px;
+    top: 19px;
+    left: 384px;
+    padding-top: 593px;
+}
+
+.pencil-icon1 {
+    position: absolute;
+    background: #364da7;
+    top: 51px;
+    left: 380px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%
+}
+
+.pencil-icon2 {
+    position: absolute;
+    background: #364da7;
+    top: 217px;
+    left: 380px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%
+}
+
+.pencil-icon3 {
+    position: absolute;
+    background: #364da7;
+    top: 515px;
+    left: 380px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%
+}
+
 
