@@ -11,7 +11,7 @@ You should know how to create a layout in HTML and CSS from scratch.
 - Combine multiple approaches to create complex, multi-column layouts
 - Demonstrate understanding of how to use media queries
 ## Deliverables
-- A GitHub repository containing:
+A GitHub repository containing:
 - index.html
 - normalize.css
 - main.css
